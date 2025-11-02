@@ -53,18 +53,15 @@ export default function Process() {
     {
       number: "05",
       title: "OPERATION",
-      items: [
-        "Maintenance Contracts",
-        "Maintenance Cost Estimates",
-      ],
+      items: ["Maintenance Contracts", "Maintenance Cost Estimates"],
     },
   ];
 
   return (
     <div>
       <Header />
-      <PageHero title="Our Process" />
-      <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      <PageHero title="Our Process" image="/images/mutuini/2.jpg" />
+      <main className="min-h-screen bg-linear-to-b from-slate-50 to-white">
         {/* Introduction Section */}
         <section className="py-16 lg:py-24">
           <div className="container mx-auto px-6 lg:px-8">
@@ -88,7 +85,7 @@ export default function Process() {
           <div className="container mx-auto px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">
               <div className="space-y-8 lg:space-y-12">
-                {phases.map((phase, index) => (
+                {phases.map((phase) => (
                   <div
                     key={phase.number}
                     className="bg-white rounded-xl shadow-lg p-6 lg:p-10 hover:shadow-xl transition-shadow duration-300 border border-slate-100"
@@ -97,7 +94,7 @@ export default function Process() {
                       {/* Phase Number & Title */}
                       <div className="md:w-1/3">
                         <div className="flex items-center gap-4 mb-4">
-                          <div className="w-16 h-16 rounded-lg bg-gradient-to-br from-blue-600 to-blue-700 flex items-center justify-center shadow-lg">
+                          <div className="w-16 h-16 rounded-lg bg-linear-to-br from-blue-600 to-blue-700 flex items-center justify-center shadow-lg">
                             <span className="text-white font-bold text-2xl">
                               {phase.number}
                             </span>

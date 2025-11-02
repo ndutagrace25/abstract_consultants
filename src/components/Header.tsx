@@ -146,6 +146,13 @@ export default function Header() {
                   Our Clients
                 </Link>
                 <Link
+                  href="/key-personnel"
+                  onClick={() => setIsMenuOpen(false)}
+                  className="text-2xl md:text-3xl font-bold text-white hover:text-teal-200 transition-colors"
+                >
+                  Key Personnel
+                </Link>
+                <Link
                   href="/contact"
                   onClick={() => setIsMenuOpen(false)}
                   className="text-2xl md:text-3xl font-bold text-white hover:text-teal-200 transition-colors"

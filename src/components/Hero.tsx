@@ -29,14 +29,14 @@ const slides: Slide[] = [
   },
   {
     id: 3,
-    image: "/images/la_apartments/1.jpg",
+    image: "/images/nanare/1.jpg",
     heading: "Contemporary urban housing solution",
     subHeading: "Redefining modern urban living",
     category: "Urban Design: Housing",
   },
   {
     id: 4,
-    image: "/images/magnolia/1.jpg",
+    image: "/images/obradleys/1.jpg",
     heading: "Premium residential complex with world-class amenities",
     subHeading: "Where luxury meets functionality",
     category: "Architecture: Luxury",

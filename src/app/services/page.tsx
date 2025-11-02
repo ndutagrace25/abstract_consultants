@@ -6,8 +6,8 @@ export default function Services() {
   return (
     <div>
       <Header />
-      <PageHero title="Our Services" />
-      <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      <PageHero title="Our Services" image="/images/castle/3.jpg" />
+      <main className="min-h-screen bg-linear-to-b from-slate-50 to-white">
         {/* Introduction Section */}
         <section className="py-16 lg:py-24">
           <div className="container mx-auto px-6 lg:px-8">
@@ -18,8 +18,9 @@ export default function Services() {
               </p>
               <p className="text-base lg:text-lg text-slate-600 leading-relaxed">
                 Our training and experience qualify us to advise on all cost and
-                contractual issues. We have experience with various clients&apos;
-                in-house Standard Conditions of Contract, as well as:
+                contractual issues. We have experience with various
+                clients&apos; in-house Standard Conditions of Contract, as well
+                as:
               </p>
               <div className="flex flex-wrap justify-center gap-6 mt-8">
                 <div className="bg-white rounded-lg shadow-md px-6 py-4 border border-slate-200">
@@ -41,7 +42,7 @@ export default function Services() {
         <section className="py-16 lg:py-24 bg-white">
           <div className="container mx-auto px-6 lg:px-8">
             <div className="max-w-5xl mx-auto">
-              <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl p-8 lg:p-12 mb-12 border border-green-100">
+              <div className="bg-linear-to-r from-green-50 to-emerald-50 rounded-2xl p-8 lg:p-12 mb-12 border border-green-100">
                 <div className="flex items-center gap-4 mb-6">
                   <div className="w-14 h-14 rounded-xl bg-green-600 flex items-center justify-center shadow-lg">
                     <svg
@@ -66,8 +67,9 @@ export default function Services() {
                   We offer full quantity surveying services on construction
                   projects. From feasibility to completion, we make sure the
                   finances of the project are accurate, managed and controlled,
-                  to ensure you get the best value for your money spent. We offer
-                  a wide range of quantity surveying services which include;
+                  to ensure you get the best value for your money spent. We
+                  offer a wide range of quantity surveying services which
+                  include;
                 </p>
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div className="bg-white rounded-lg p-4 shadow-sm border border-green-100">
@@ -83,8 +85,8 @@ export default function Services() {
                       <li className="flex items-start gap-2">
                         <span className="text-green-600 font-bold">•</span>
                         <span>
-                          Feasibility studies including financial modeling & risk
-                          analysis;
+                          Feasibility studies including financial modeling &
+                          risk analysis;
                         </span>
                       </li>
                       <li className="flex items-start gap-2">
@@ -304,8 +306,8 @@ export default function Services() {
                   </h3>
                 </div>
                 <p className="text-base text-slate-700 leading-relaxed">
-                  Abstract Consultants Limited offers expert advice to clients in
-                  the construction space.
+                  Abstract Consultants Limited offers expert advice to clients
+                  in the construction space.
                 </p>
               </div>
             </div>
