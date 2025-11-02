@@ -101,7 +101,7 @@ export default function Hero() {
       {/* Navigation Buttons */}
       <button
         onClick={goToPrevious}
-        className="absolute left-6 top-1/2 -translate-y-1/2 z-10 bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/20 p-3 rounded-full transition-all duration-300 hover:scale-110"
+        className="absolute left-6 bottom-32 -translate-y-1/2 z-10 bg-white/5 hover:bg-white/10 backdrop-blur-sm border border-white/10 p-3 rounded-full transition-all duration-300 hover:scale-110"
         aria-label="Previous slide"
       >
         <svg
@@ -121,7 +121,7 @@ export default function Hero() {
 
       <button
         onClick={goToNext}
-        className="absolute right-6 top-1/2 -translate-y-1/2 z-10 bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/20 p-3 rounded-full transition-all duration-300 hover:scale-110"
+        className="absolute right-6 bottom-32 -translate-y-1/2 z-10 bg-white/5 hover:bg-white/10 backdrop-blur-sm border border-white/10 p-3 rounded-full transition-all duration-300 hover:scale-110"
         aria-label="Next slide"
       >
         <svg
