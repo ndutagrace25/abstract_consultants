@@ -144,12 +144,12 @@ export default function Hero() {
         <div className="container mx-auto px-6 lg:px-8">
           <div className="max-w-2xl">
             {/* Main heading */}
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-light text-white leading-tight mb-4">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-tight mb-4">
               {currentSlideData.heading}
             </h1>
 
             {/* Sub heading */}
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-tight mb-6">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-light text-white leading-tight mb-6">
               {currentSlideData.subHeading}
             </h2>
 
@@ -177,7 +177,7 @@ export default function Hero() {
               />
             ))}
           </div>
-          <span className="text-white text-lg font-light">
+          <span className="text-white text-sm font-light">
             {currentSlide + 1} / {slides.length}
           </span>
         </div>

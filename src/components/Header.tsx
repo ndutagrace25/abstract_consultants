@@ -63,7 +63,7 @@ export default function Header() {
 
       {/* Full-Screen Navigation Menu */}
       {isMenuOpen && (
-        <div className="fixed inset-0 z-[100] bg-teal-900 overflow-y-auto">
+        <div className="fixed inset-0 z-50 bg-teal-900 overflow-y-auto">
           <div className="min-h-screen">
             {/* Top Bar */}
             <div className="container mx-auto px-6 lg:px-8 py-6">
@@ -109,199 +109,49 @@ export default function Header() {
 
             {/* Navigation Content */}
             <div className="container mx-auto px-6 lg:px-8 py-12">
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-6xl">
-                {/* Column 1 */}
-                <div className="space-y-8">
-                  <div>
-                    <h2 className="text-2xl md:text-3xl font-bold text-white mb-6">
-                      Services
-                    </h2>
-                    <ul className="space-y-4">
-                      <li>
-                        <Link
-                          href="/services/architecture"
-                          onClick={() => setIsMenuOpen(false)}
-                          className="text-white text-lg hover:underline"
-                        >
-                          Architecture
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href="/services/planning"
-                          onClick={() => setIsMenuOpen(false)}
-                          className="text-white text-lg hover:underline"
-                        >
-                          Urban Design + Planning
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href="/services/interiors"
-                          onClick={() => setIsMenuOpen(false)}
-                          className="text-white text-lg hover:underline"
-                        >
-                          Interiors
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-
-                  <div>
-                    <h2 className="text-2xl md:text-3xl font-bold text-white mb-6">
-                      Sectors
-                    </h2>
-                    <ul className="space-y-4">
-                      <li>
-                        <Link
-                          href="/sectors/hospitality"
-                          onClick={() => setIsMenuOpen(false)}
-                          className="text-white text-lg hover:underline"
-                        >
-                          Hospitality
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href="/sectors/housing"
-                          onClick={() => setIsMenuOpen(false)}
-                          className="text-white text-lg hover:underline"
-                        >
-                          Housing
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href="/sectors/public"
-                          onClick={() => setIsMenuOpen(false)}
-                          className="text-white text-lg hover:underline"
-                        >
-                          Public
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href="/sectors/workplace"
-                          onClick={() => setIsMenuOpen(false)}
-                          className="text-white text-lg hover:underline"
-                        >
-                          Workplace
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href="/sectors/featured"
-                          onClick={() => setIsMenuOpen(false)}
-                          className="text-white text-lg hover:underline"
-                        >
-                          Featured
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-
-                {/* Column 2 */}
-                <div className="space-y-8">
-                  <div>
-                    <h2 className="text-2xl md:text-3xl font-bold text-white mb-6">
-                      Specialties
-                    </h2>
-                    <ul className="space-y-4">
-                      <li>
-                        <Link
-                          href="/specialties/reuse"
-                          onClick={() => setIsMenuOpen(false)}
-                          className="text-white text-lg hover:underline"
-                        >
-                          Reuse and Renovation
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href="/specialties/resilience"
-                          onClick={() => setIsMenuOpen(false)}
-                          className="text-white text-lg hover:underline"
-                        >
-                          Resilience
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href="/specialties/sustainability"
-                          onClick={() => setIsMenuOpen(false)}
-                          className="text-white text-lg hover:underline"
-                        >
-                          Sustainability
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href="/specialties/visualization"
-                          onClick={() => setIsMenuOpen(false)}
-                          className="text-white text-lg hover:underline"
-                        >
-                          Visualization
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-
-                {/* Column 3 */}
-                <div className="space-y-8">
-                  <div>
-                    <h2 className="text-2xl md:text-3xl font-bold text-white mb-6">
-                      People
-                    </h2>
-                    <ul className="space-y-4">
-                      <li>
-                        <Link
-                          href="/people/team"
-                          onClick={() => setIsMenuOpen(false)}
-                          className="text-white text-lg hover:underline"
-                        >
-                          Team
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href="/people/culture"
-                          onClick={() => setIsMenuOpen(false)}
-                          className="text-white text-lg hover:underline"
-                        >
-                          Culture
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href="/people/careers"
-                          onClick={() => setIsMenuOpen(false)}
-                          className="text-white text-lg hover:underline"
-                        >
-                          Careers
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-
-                  <div className="space-y-4 pt-8">
-                    <Link
-                      href="/news"
-                      onClick={() => setIsMenuOpen(false)}
-                      className="block text-white text-lg hover:underline"
-                    >
-                      News + Insights
-                    </Link>
-                    <Link
-                      href="/contact"
-                      onClick={() => setIsMenuOpen(false)}
-                      className="block text-white text-lg hover:underline"
-                    >
-                      Contact
-                    </Link>
-                  </div>
-                </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 max-w-6xl">
+                <Link
+                  href="/"
+                  onClick={() => setIsMenuOpen(false)}
+                  className="text-2xl md:text-3xl font-bold text-white hover:text-teal-200 transition-colors"
+                >
+                  About Us
+                </Link>
+                <Link
+                  href="/services"
+                  onClick={() => setIsMenuOpen(false)}
+                  className="text-2xl md:text-3xl font-bold text-white hover:text-teal-200 transition-colors"
+                >
+                  Our Services
+                </Link>
+                <Link
+                  href="/process"
+                  onClick={() => setIsMenuOpen(false)}
+                  className="text-2xl md:text-3xl font-bold text-white hover:text-teal-200 transition-colors"
+                >
+                  Our Process
+                </Link>
+                <Link
+                  href="/project-portfolio"
+                  onClick={() => setIsMenuOpen(false)}
+                  className="text-2xl md:text-3xl font-bold text-white hover:text-teal-200 transition-colors"
+                >
+                  Project Portfolio
+                </Link>
+                <Link
+                  href="/our-clients"
+                  onClick={() => setIsMenuOpen(false)}
+                  className="text-2xl md:text-3xl font-bold text-white hover:text-teal-200 transition-colors"
+                >
+                  Our Clients
+                </Link>
+                <Link
+                  href="/contact"
+                  onClick={() => setIsMenuOpen(false)}
+                  className="text-2xl md:text-3xl font-bold text-white hover:text-teal-200 transition-colors"
+                >
+                  Contact Us
+                </Link>
               </div>
             </div>
           </div>
