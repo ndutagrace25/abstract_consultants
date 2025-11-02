@@ -7,7 +7,7 @@ export default function AboutUs() {
     <div>
       <Header />
       <Hero />
-      <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      <main className="min-h-screen bg-linear-to-b from-slate-50 to-white">
         {/* Page Header */}
         <section className="py-12 lg:py-16 bg-white border-b border-slate-200">
           <div className="container mx-auto px-6 lg:px-8">
@@ -53,7 +53,7 @@ export default function AboutUs() {
           <div className="container mx-auto px-6 lg:px-8">
             <div className="grid md:grid-cols-2 gap-6 lg:gap-8 max-w-6xl mx-auto">
               {/* Mission Card */}
-              <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl shadow-lg p-6 sm:p-8 lg:p-10 hover:shadow-xl transition-all duration-300 border border-blue-100">
+              <div className="bg-linear-to-br from-blue-50 to-indigo-50 rounded-2xl shadow-lg p-6 sm:p-8 lg:p-10 hover:shadow-xl transition-all duration-300 border border-blue-100">
                 <div className="mb-6">
                   <div className="w-16 h-1 bg-blue-600 rounded-full mb-4"></div>
                   <h2 className="text-3xl md:text-4xl font-bold text-slate-900">
@@ -68,7 +68,7 @@ export default function AboutUs() {
               </div>
 
               {/* Vision Card */}
-              <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl shadow-lg p-6 sm:p-8 lg:p-10 hover:shadow-xl transition-all duration-300 border border-purple-100">
+              <div className="bg-linear-to-br from-purple-50 to-pink-50 rounded-2xl shadow-lg p-6 sm:p-8 lg:p-10 hover:shadow-xl transition-all duration-300 border border-purple-100">
                 <div className="mb-6">
                   <div className="w-16 h-1 bg-purple-600 rounded-full mb-4"></div>
                   <h2 className="text-3xl md:text-4xl font-bold text-slate-900">
