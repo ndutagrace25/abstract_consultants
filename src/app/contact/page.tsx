@@ -284,7 +284,7 @@ export default function Contact() {
                           </h4>
                           <p className="text-slate-700">
                             All Africa Conference of Churches (AACC) Complex,
-                            Ibiam Akanu House, Fourth Floor, Suite 403,
+                            Ibiam Akanu House, Fourth Floor, Suite 403
                           </p>
                         </div>
                       </div>
