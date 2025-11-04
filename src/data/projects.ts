@@ -44,7 +44,7 @@ export const projects = [
       "/images/mutuini/3.jpg",
     ],
     location: "Mutuini, Nairobi, Kenya",
-    cost: "KES 40 Million",
+    cost: "",
     period: "March 2024 - Aug 2024",
     status: "Complete",
   },
@@ -148,9 +148,9 @@ export const projects = [
       "/images/mombasa/4.jpg",
     ],
     location: "Mombasa, Kenya",
-    cost: "KES 40 Million",
-    period: "Ongoing",
-    status: "Ongoing",
+    cost: "",
+    period: "Complete",
+    status: "Complete",
   },
 ];
 
