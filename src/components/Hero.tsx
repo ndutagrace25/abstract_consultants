@@ -44,9 +44,9 @@ const slides: Slide[] = [
   {
     id: 5,
     image: "/images/victoria/1.jpg",
-    heading: "Exclusive residential towers with panoramic city views",
-    subHeading: "Elevating the skyline experience",
-    category: "Architecture: High-Rise",
+    heading: "Gated communities focused of family wholistic living",
+    subHeading: "Where security, comfort, and nature converge",
+    category: "Project type: Residential",
   },
 ];
 
