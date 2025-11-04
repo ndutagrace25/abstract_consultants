@@ -43,7 +43,7 @@ const slides: Slide[] = [
   },
   {
     id: 5,
-    image: "/images/victoria/1.jpg",
+    image: "/images/residential.jpg",
     heading: "Gated communities focused of family wholistic living",
     subHeading: "Where security, comfort, and nature converge",
     category: "Project type: Residential",
