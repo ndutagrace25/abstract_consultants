@@ -9,10 +9,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Company Info */}
           <div className="text-center md:text-left">
-            <h3 className="text-xl font-bold mb-4">Abstract Consultants</h3>
+            <h3 className="text-xl font-bold mb-4">Abstract Consultants Ltd</h3>
             <p className="text-slate-400 text-sm leading-relaxed">
-              Creating innovative architectural solutions and sustainable design
-              for the built environment.
+              Quantity Surveying and Project Management Services.
             </p>
           </div>
 
@@ -64,7 +63,7 @@ export default function Footer() {
                   href="tel:+254700000000"
                   className="hover:text-white transition-colors"
                 >
-                  +254 700 000 000
+                  +254726159870{" "}
                 </Link>
               </li>
               <li>

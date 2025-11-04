@@ -110,7 +110,7 @@ export default function Contact() {
                         value={formData.phone}
                         onChange={handleChange}
                         className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none transition-all"
-                        placeholder="+254 700 000 000"
+                        placeholder="+254726159870"
                       />
                     </div>
 
@@ -191,10 +191,10 @@ export default function Contact() {
                             Phone
                           </h4>
                           <Link
-                            href="tel:+254700000000"
+                            href="tel:+254726159870"
                             className="text-slate-700 hover:text-teal-600 transition-colors"
                           >
-                            +254 700 000 000
+                            +254726159870
                           </Link>
                         </div>
                       </div>
