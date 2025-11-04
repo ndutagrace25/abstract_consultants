@@ -256,7 +256,11 @@ export default function Contact() {
                           <h4 className="text-lg font-semibold text-slate-900 mb-1">
                             Location
                           </h4>
-                          <p className="text-slate-700">Nairobi, Kenya</p>
+                          <p className="text-slate-700">
+                            All Africa Conference of Churches (AACC) Complex,
+                            Ibiam Akanu House, Fourth Floor, Suite 403,
+                            Westlands, Nairobi, Kenya
+                          </p>
                         </div>
                       </div>
                     </div>

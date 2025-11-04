@@ -75,7 +75,13 @@ export default function Footer() {
                 </Link>
               </li>
               <li className="pt-2">
-                <p>Nairobi, Kenya</p>
+                <p>All Africa Conference of Churches (AACC) Complex</p>
+              </li>
+              <li className="pt-2">
+                <p>Ibiam Akanu House, Fourth Floor, Suite 403</p>
+              </li>
+              <li className="pt-2">
+                <p>Westlands, Nairobi, Kenya</p>
               </li>
             </ul>
           </div>
