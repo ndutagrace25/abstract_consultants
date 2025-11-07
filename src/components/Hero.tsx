@@ -37,9 +37,9 @@ const slides: Slide[] = [
   {
     id: 4,
     image: "/images/obradleys/1.jpg",
-    heading: "Premium residential complex with world-class amenities",
-    subHeading: "Where luxury meets functionality",
-    category: "Project type: Waeprehouse facility",
+    heading: "Premium office and wharehouse complex with world-class amenities",
+    subHeading: "",
+    category: "Project type: Waeprehouse Facility",
   },
   {
     id: 5,
