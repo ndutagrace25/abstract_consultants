@@ -37,9 +37,9 @@ const slides: Slide[] = [
   {
     id: 4,
     image: "/images/obradleys/1.jpg",
-    heading: "Premium office and wharehouse complex with world-class amenities",
+    heading: "Premium office and warehouse complex with world-class amenities",
     subHeading: "",
-    category: "Project type: Waeprehouse Facility",
+    category: "Project type: Warehouse Facility",
   },
   {
     id: 5,
